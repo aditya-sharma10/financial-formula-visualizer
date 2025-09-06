@@ -1,0 +1,18 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+P = int(input("Enter the initial amount: "))      
+years = int(input("Enter the number of years: ")) 
+rate = float(input("Enter the rate (%): "))       
+r = rate / 100x = np.arange(0, years + 1)
+
+fv = P * (1 + r) ** x
+
+# Plot
+plt.plot(x, fv, color='red', label=f"FV calculation when r = {rate}%")
+plt.xlabel("Years")
+plt.ylabel("Future Value")
+plt.title("Compound Interest Growth")
+plt.legend()
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.sho
