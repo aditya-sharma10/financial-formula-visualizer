@@ -1,11 +1,56 @@
-This project demonstrates the time value of money (TVM) concepts through data visualization. Using Python (pandas + matplotlib), it covers:
+# 💰 Time Value of Money (TVM) Visualizations
 
-Future Value (FV): growth of investments over time
+This project demonstrates **Time Value of Money (TVM)** concepts through clear **data visualizations** using Python (`pandas` + `matplotlib`).  
 
-Present Value (PV): discounting future cash flows to today
+It is designed to help beginners and finance enthusiasts **understand how money grows, shrinks, or stabilizes** under different scenarios.
 
-Annuities: level stream of payments over time
+---
 
-Perpetuities: infinite cash flow models
+## 📈 Concepts Covered
 
-The repository includes financial formulas implemented in Python and their corresponding visual plots, making it easier to understand how money grows, shrinks, or stabilizes under different rates and time horizons.
+- **Future Value (FV):** Growth of investments over time  
+- **Present Value (PV):** Discounting future cash flows to today  
+- **Annuities:** Fixed series of payments over time  
+- **Perpetuities:** Infinite cash flow models  
+
+---
+
+## 🛠️ Features
+
+- Implements key **financial formulas in Python**  
+- Generates **visual plots** for better understanding  
+- Interactive and easy-to-follow examples for each TVM concept  
+
+---
+
+## 🚀 Usage
+
+1. Clone the repository:  
+```bash
+git clone <repo-url>
+ ```
+---
+### 2. Install dependencies:
+```
+pip install pandas matplotlib
+```
+---
+###3. Run example scripts to visualize TVM concepts:
+```
+python future_value.py
+python present_value.py
+python annuity.py
+python perpetuity.py
+```
+---
+###📚 Learning Outcomes
+```
+
+1. Visualize how investments grow with compounding
+
+2. Understand how discounting affects present value
+
+3. Explore the behavior of annuities and perpetuities
+
+4. Gain practical insights into financial decision-making
+```
